@@ -27,7 +27,7 @@ if st.button("Submit"):
     valores = [[gp, fgm, fg3m, ftm]]
     prediccion = clf.predict(valores)
 
-    tolerancia_pts = 0.009
+    tolerancia_pts = 0.02
 
     X_completo= pd.read_csv('data/Lista_completa.csv')
 
